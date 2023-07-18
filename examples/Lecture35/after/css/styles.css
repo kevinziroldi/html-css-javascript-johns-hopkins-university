@@ -91,7 +91,7 @@ body {
 
 #menu-tile, #specials-tile, #map-tile {
   height: 250px;
-  width: 100%;
+  width: 100%;  /* 100% of the container element */
   margin-bottom: 15px;
   position: relative;
   border: 2px solid #3F0C1F;
