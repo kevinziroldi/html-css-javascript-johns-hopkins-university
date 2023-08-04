@@ -1,3 +1,11 @@
+/*
+var johnGreeter = {};
+johnGreeter.name = "John";
+johnGreeter.sayHi = function(){
+  console.log("Hello " + johnGreeter.name);
+}
+*/
+
 (function (window) {
   var johnGreeter = {};
   johnGreeter.name = "John";
@@ -9,6 +17,3 @@
   window.johnGreeter = johnGreeter;
 
 })(window);
-
-
-

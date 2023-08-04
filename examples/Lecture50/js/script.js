@@ -25,6 +25,7 @@ for (var i = 0; i < names.length; i++) {
   console.log("Hello " + names[i]);
 }
 
+// part 2
 var names2 = ["Yaakov", "John", "Joe"];
 
 var myObj = {
