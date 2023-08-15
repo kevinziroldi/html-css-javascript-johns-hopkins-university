@@ -1,28 +1,24 @@
 // DOM manipulation
-// console.log(document.getElementById("title"));
-// console.log(document instanceof HTMLDocument);
+
+// We want an <h2> that says Hello "name"! 
+// If the name is "student", we want the title to change
 
 function sayHello () {
-  var name =
-   document.getElementById("name").value;
-   var message = "<h2>Hello " + name + "!</h2>";
+  var name = document.getElementById("name").value;
+  var message = "<h2>Hello " + name + "!</h2>";
 
-  // document
-  //   .getElementById("content")
-  //   .textContent = message;
+  // If it was simple text
+  // document.getElementById("content").textContent = message;
 
-  document
-    .getElementById("content")
-    .innerHTML = message;
+  // Since it is an <h2> element we use .innerHTML
+  document.getElementById("content").innerHTML = message;
 
+  // If the name is "student", we want the tile to change
   if (name === "student") {
-    var title = 
-      document
-        .querySelector("#title")
-        .textContent;
+    // querySelector is much more general than getElementById,
+    // because it allows to specify a selector in general
+    var title = document.querySelector("#title").textContent;
     title += " & Lovin' it!";
-    document
-        .querySelector("h1")
-        .textContent = title;
+    document.querySelector("h1").textContent = title;
   }
 }
