@@ -1,2 +1,5 @@
 # html-css-javascript-coursera
- HTML, CSS and Javascript for Web Developers - John Hopkins University
+
+## Description
+This repository contains intermediate assingments and the final project for the course "HTML, CSS and Javascript for Web Developers", offered by John Hopkins University, teaching the basics of Web Development using HTML, CSS and JavaScript.  
+The final project is a realistic website for a restaurant.
